@@ -1,0 +1,8 @@
+An easy way to manage rvm's global gemset with bundler.
+
+Usage:
+
+cd global_gemset
+# trust .rvmrc to switch to the global gemset
+gem install bundler
+bundle install
