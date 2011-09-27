@@ -1,4 +1,6 @@
-source 'http://rubygems.org'
+source :gemcutter
+# source :rubygems
+# source :rubyforge
 
 gem 'awesome_print'
 gem 'bundler'

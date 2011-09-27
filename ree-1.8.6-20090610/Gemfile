@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source :gemcutter
 
 gem 'awesome_print'
 gem 'bundler'
@@ -11,6 +11,5 @@ gem 'ori'
 gem 'powder'
 # gem 'powify'
 gem 'rake'
-gem 'rdoc'
 gem 'showoff-io'
 gem 'wirble'
