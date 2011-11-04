@@ -4,7 +4,9 @@ source :gemcutter
 
 gem 'awesome_print'
 gem 'bundler'
+gem 'bundle_outdated'
 gem 'cheat'
+gem 'gem-outdated'
 gem 'git_remote_branch'
 gem 'github'
 gem 'irb_hacks'
