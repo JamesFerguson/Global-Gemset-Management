@@ -44,7 +44,7 @@ GEM
     powify (0.8.5)
       json
     rainbow (1.1.4)
-    rake (10.1.0)
+    rake (10.0.4)
     rdoc (4.0.1)
       json (~> 1.4)
     rest-client (1.6.7)
@@ -79,7 +79,7 @@ DEPENDENCIES
   ori
   powder
   powify
-  rake
+  rake (= 10.0.4)
   rdoc
   showoff-io
   tapp
