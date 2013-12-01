@@ -1,0 +1,24 @@
+source :gemcutter
+# source :rubygems
+# source :rubyforge
+
+gem 'awesome_print', :require => 'ap'
+gem 'bundler'
+gem 'bundle_outdated'
+gem 'cheat'
+gem 'gem-outdated'
+gem 'git_remote_branch'
+gem 'git-up'
+gem 'github'
+gem 'heroku'
+gem 'irb_hacks'
+gem 'open_gem'
+gem 'ori'
+gem 'powder'
+gem 'powify'
+gem 'rake'
+gem 'rdoc'
+gem 'showoff-io'
+gem 'tapp'
+gem 'wirble'
+gem 'zeus'
