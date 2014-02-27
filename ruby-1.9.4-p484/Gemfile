@@ -1,8 +1,5 @@
-source :gemcutter
-# source :rubygems
-# source :rubyforge
+source 'http://rubygems.org'
 
-gem 'awesome_print', :require => 'ap'
 gem 'bundler'
 gem 'bundle_outdated'
 gem 'cheat'
@@ -12,6 +9,7 @@ gem 'git-up'
 gem 'github'
 gem 'heroku'
 gem 'irb_hacks'
+gem 'jazz_hands'
 gem 'open_gem'
 gem 'ori'
 gem 'powder'
