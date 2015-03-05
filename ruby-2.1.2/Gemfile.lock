@@ -1,3 +1,20 @@
+GIT
+  remote: https://github.com/scarfacedeb/jazz_hands.git
+  revision: 0e0d38ce43dbd0823cf27aab799bc26844e4be65
+  specs:
+    jazz_hands (0.5.2)
+      awesome_print (~> 1.2)
+      hirb (~> 0.7)
+      pry (~> 0.9)
+      pry-byebug (~> 1.3)
+      pry-coolline (~> 0.2)
+      pry-doc (~> 0.6)
+      pry-git (~> 0.2)
+      pry-rails (~> 0.3)
+      pry-remote (>= 0.1.7)
+      pry-stack_explorer (~> 0.4)
+      railties (>= 3.0, < 5.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -20,24 +37,27 @@ GEM
     astrolabe (0.5.1)
       parser (~> 2.1)
     awesome_print (1.2.0)
+    better_errors (1.1.0)
+      coderay (>= 1.0.0)
+      erubis (>= 2.6.6)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
     bundle_outdated (0.0.4)
+    byebug (2.7.0)
+      columnize (~> 0.3)
+      debugger-linecache (~> 1.2)
     cheat (1.3.3)
       pager (~> 1.0)
+    cocoapods (0.5.1)
+      xcodeproj (~> 0.1.0)
     coderay (1.1.0)
     colored (1.2)
     columnize (0.8.9)
     configuration (1.3.4)
     coolline (0.4.4)
     debug_inspector (0.0.2)
-    debugger (1.6.8)
-      columnize (>= 0.3.1)
-      debugger-linecache (~> 1.2.0)
-      debugger-ruby_core_source (~> 1.3.5)
     debugger-linecache (1.2.0)
-    debugger-ruby_core_source (1.3.5)
     diff-lcs (1.2.5)
     diffy (3.0.5)
     erubis (2.7.0)
@@ -70,18 +90,6 @@ GEM
     hirb (0.7.2)
     i18n (0.6.11)
     irb_hacks (0.2.5)
-    jazz_hands (0.5.2)
-      awesome_print (~> 1.2)
-      coolline (>= 0.4.2)
-      hirb (~> 0.7.1)
-      pry (~> 0.9.12)
-      pry-debugger (~> 0.2.2)
-      pry-doc (~> 0.4.6)
-      pry-git (~> 0.2.3)
-      pry-rails (~> 0.3.2)
-      pry-remote (>= 0.1.7)
-      pry-stack_explorer (~> 0.4.9)
-      railties (>= 3.0, < 5.0)
     json (1.8.1)
     json_pure (1.5.5)
       spruz (~> 0.2.8)
@@ -105,16 +113,18 @@ GEM
       thor (>= 0.11.5)
     powerpack (0.0.9)
     powify (0.9.1)
-    pry (0.9.12.6)
-      coderay (~> 1.0)
-      method_source (~> 0.8)
+    pry (0.10.0)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
       slop (~> 3.4)
-    pry-debugger (0.2.3)
-      debugger (~> 1.3)
-      pry (>= 0.9.10, < 0.11.0)
-    pry-doc (0.4.6)
-      pry (>= 0.9)
-      yard (>= 0.8)
+    pry-byebug (1.3.3)
+      byebug (~> 2.7)
+      pry (~> 0.10)
+    pry-coolline (0.2.4)
+      coolline (~> 0.3)
+    pry-doc (0.6.0)
+      pry (~> 0.9)
+      yard (~> 0.8)
     pry-git (0.2.3)
       diffy
       grit
@@ -173,6 +183,7 @@ GEM
     tzinfo (1.2.1)
       thread_safe (~> 0.1)
     wirble (0.1.3)
+    xcodeproj (0.1.0)
     yard (0.8.7.4)
     zeus (0.15.1)
       method_source (>= 0.6.7)
@@ -181,16 +192,19 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  better_errors
+  binding_of_caller
   bundle_outdated
   bundler
   cheat
+  cocoapods
   gem-outdated
   git-up
   git_remote_branch
   github
   heroku
   irb_hacks
-  jazz_hands
+  jazz_hands!
   open_gem
   ori
   powder
